@@ -1,0 +1,11 @@
+https://realmightycat.blogspot.com/2011/06/linux-ubuntu.html - установка вирт. принтера
+sudo apt install libreoffice - установщик пакет программ - libreoffice
+sudo apt install gimp - установка граф. редактора, запуск - gimp в терминале
+sudo apt install p7zip-full - установка архиватора 
+p7zip -d имя_файла.7z архивировать
+Проверим:
+Создаем папку на рабочем под названием test
+в терминале переходим cd Рабочий стол/test
+создаем touch filename.txt
+архивируем - 7z a archive.7z filename.txt
+разахивируем - p7zip -d archive.7z

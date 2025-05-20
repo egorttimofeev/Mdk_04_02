@@ -1,0 +1,17 @@
+Установка приложений: sudo apt install, далее перечисляем приложения
+sudo apt install gimp inkscape libreoffice p7zip-full clamav mysql-server
+
+Установка виртуального принтера: sudo apt install cups-pdf
+Чтобы перезапустить принтер и чтобы он точно заработал: sudo systemctl restart cups
+
+Проверка сетевого соединения: ping ya.ru
+Но на данный момент (05.05.25) пинговаться ничего не будет в связи с ограничениям сети в колледже
+
+Резервное копирование системы: sudo apt install timeshift
+Далее заходим в программу timeshift и делаем резервную копию системы
+
+Создание установочного образа системы: sudo apt install clonezilla
+Далее заходим в программу через команду sudo clonezilla, выбираем режим device-image и сохраняем образ на внешний диск
+
+
+
