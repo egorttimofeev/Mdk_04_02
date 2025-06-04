@@ -1,0 +1,25 @@
+sudo pacman -S ...
+
+...virtualbox
+...blender - 3д разработка
+...libreoffice - офисные приложения
+...clamtk - антивирус
+...timeshift - снапшот (sudo timeshift-gtk)
+...p7zip-full - архиватор
+...gimp - граф.редактор
+...mariadb - sql
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo systemctl start mariadb
+sudo mariadb -u root -p
+...code - vs code
+...htop(встроен), btop - утилиты для мониторинга системы
+...vlc - медиапроигрыватель
+...godot - разработка игр
+
+для android-studio
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+yay android-studio
+1
+A
+A
+y
