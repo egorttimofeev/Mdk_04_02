@@ -4,7 +4,7 @@ sudo pacman -S ...
 ...blender - 3д разработка
 ...libreoffice - офисные приложения
 ...clamtk - антивирус
-...timeshift - снапшот (sudo timeshift-gtk)
+...timeshift - точка восстановления (sudo timeshift-gtk)
 ...p7zip-full - архиватор
 ...gimp - граф.редактор
 ...mariadb - sql
@@ -23,3 +23,6 @@ yay android-studio
 A
 A
 y
+
+systemback - резервное копирование, точка восстановления, установочный образ
+yay systemback -> 1-4 -> A -> A -> далее везде y
