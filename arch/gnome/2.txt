@@ -14,7 +14,15 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 
 ===iso образ системы===
 
+
 ===Точка восстановления системы===
+Создание:
+1. Устанавливаем timeshift (yay -S timeshift).
+2. Запускаем программу (sudo timeshift-gtk) -> выбираем RSYNC и нажимаем Next -> выбираем диск и нажимаем Next -> нажимаем Next до конца, а затем Finish.
+3. Нажимаем на кнопку Create.
+
+Проверка:
+1. ПКМ на точку восстановления и нажимаем View Rsync Log for Create.
 
 ===Группы пользователей===
 1. Создание пользователя (без прав суперпользователя)
