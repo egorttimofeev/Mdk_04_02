@@ -1,7 +1,6 @@
 Установка yay
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
-<<<<<<< HEAD
 ===Резервное копирование системы===
 Создание:
 1. Устанавливаем vorta borg (yay -S vorta borg).
@@ -13,8 +12,6 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 Проверка:
 1. Переходим во вкладку Archives -> выбираем копию (галочка) и нажимаем Extract -> создаем папку, в которую будем выгружать копию и нажимаем Open.
 
-=======
->>>>>>> c3281a5156c39d1bddef0c7b7f6db15155b83136
 ===iso образ системы===
 
 ===Точка восстановления системы===
