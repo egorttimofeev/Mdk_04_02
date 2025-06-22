@@ -15,8 +15,14 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ===Образ системы===
 Нужен сетевой мост!!
 Создание:
-1. Устанавливаем gnome-disks ЕСЛИ ОТСУТСТВУЕТ В ЛАУНЧЕРЕ В ПАПКЕ "System" ПРОГРАММА "disks"(sudo pacman -S gnome-disk-utility).
-2. Запускаем программу (gnome-disks)-> выбираем жесткий диск -> нажимаем на "3 линии" -> нажимаем New Disk Image -> вводим размер образа (такой же, как у диска) -> для сохранения выбираем общую папку и нажимаем Attach New Image.
+1. Устанавливаем archiso (sudo pacman -S archiso).
+2. В терминале пишем:
+cp -r /usr/share/archiso/configs/baseline ~/название_директории
+sudo nano ~/название_директории/packages.x86_64 (проверяем/добавляем пакеты base, linux, linux-firmware, archinstall)
+cd ~/название_директории
+sudo mkarchiso -v -w ./work -o ./out ./
+
+Проверка:
 
 ===Точка восстановления системы===
 Создание:

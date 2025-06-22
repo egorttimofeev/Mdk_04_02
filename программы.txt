@@ -14,7 +14,7 @@ sudo mariadb -u root -p
 ...htop(встроен), btop - утилиты для мониторинга системы
 ...vlc - медиапроигрыватель
 ...godot - разработка игр
-...gnome-disk-utility - создание образа системы
+...archiso - создание установочного образа системы
 
 для android-studio
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
